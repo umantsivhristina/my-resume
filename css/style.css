@@ -32,22 +32,22 @@ body {
 }
 
 .about-me-profession {
-    font-weight: 700;
-    font-style: normal;
+    font-weight: normal;
+    font-style: bold;
     line-height: 17px;
     font-size: 14px;
     color: black;
-    margin-bottom: 20px 0;
+    margin:0 0 20px 0;
 }
 
  .about-me-name{
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 45px;
+    line-height: 55px;
     color: black;
-    margin: 25px 0;
-    }
+    margin:0 0 25px 0;
+}
 
  .about-me-description{
     width: 400px;
@@ -56,33 +56,83 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #595959
-    }
-
-/* .about-me {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-} */
-
+}
 
 /*My project section */
 .my-projects-section {
- 
+    margin-bottom: 50px;
 }
 .my-projects-list{
     padding: 0 0 0 17px;
 }
 .my-projects-item{
     color: black;
-
+    font-weight: bold;
 }
 
-.work-experience {
+.my-projects-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
 
-} 
+.my-projects-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
 
-.education {
+.my-projects-bracket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
 
+.work-experience-period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ABABAB;
+    margin: 0 0 10px 0;
+}
+
+.work-experience-devider{
+    color: black;
+}
+.work-experience-duties{
+    padding-left: 18px;
+}
+
+.work-experience-duty{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.work-experience-company-block{
+    margin: 0 15px 0 0;
+}
+
+.work-experience-company{
+    color: #FB6D3A;
+}
+
+.work-experience-position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
 }
 
 .sidebar {
